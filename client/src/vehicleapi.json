@@ -1,0 +1,99 @@
+[
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_vin",
+            "type": "string"
+          }
+        ],
+        "name": "getVehicleData",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_vin",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_speed",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_fuelLevel",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "_location",
+            "type": "string"
+          }
+        ],
+        "name": "updateVehicleData",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "name": "vehicles",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "vin",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "speed",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fuelLevel",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "location",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  
